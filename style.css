@@ -1,0 +1,16 @@
+ body {
+            background-color: #000000;
+            color: orangered;  
+            text-align: center;
+        }
+p {
+    max-width: 60vw;
+    margin: auto;
+    font-family: monospace;
+}
+h1 {
+    font-size 40px;
+    font-family: monospace;
+    text-align: center;
+    background-image: url(http://clipart-library.com/images/6TroxMjTK.jpg);
+}
