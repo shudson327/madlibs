@@ -2,15 +2,42 @@
             background-color: #000000;
             color: orangered;  
             text-align: center;
+          
         }
 p {
-    max-width: 60vw;
-    margin: auto;
     font-family: monospace;
+    font-size: 25px;
+    text-align: left;
+    border: 10px dashed orangered;
+    margin: 20px;
+    padding: 20px;
+
 }
 h1 {
-    font-size 40px;
+    font-size: 55px;
     font-family: monospace;
+    text-align: center;   
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 10px solid orangered;
+    text-shadow: 3px 3px white;
+    
+}
+#headingwrap{
+    display:flex;
+    flex-direction: row;
     text-align: center;
-    background-image: url(http://clipart-library.com/images/6TroxMjTK.jpg);
+}
+#pic1{
+    max-width: 60px;
+    max-height: 60px; 
+    
+}
+#pic2{
+    max-width: 60px;
+    max-height: 60px;
+}
+form {
+    column-count: 2;
+    column-gap: 10px;
 }
