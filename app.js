@@ -21,11 +21,11 @@ function createParagraph() {
     var wordEighteen = document.getElementById('eighteen').value;
     var wordNineteen = document.getElementById('nineteen').value;
     var wordTwenty = document.getElementById('twenty').value;
-    var wordTwentyone = document.getElementById('twentyone').value;
-    var wordTwentytwo = document.getElementById('twentytwo').value;
+    var wordTwentyone = document.getElementById('twentyOne').value;
+    var wordTwentytwo = document.getElementById('twentyTwo').value;
 
 
-    var paragraph = '<p> Last night I went to the most ' + wordOne + 'Halloween party! The invitation was delivered by ' + wordTwo + 'and told me to go to the deep dark ' + wordThree + 'hello!.</p>';
+    var paragraph = '<p> Last night I went to the most ' + wordOne + ' Halloween party! The invitation was delivered by ' + wordTwo + ' and told me to go to the deep dark ' + wordThree + ' and ' + wordFour + ' all the way to the very top of the spooky ' + wordFive + '. I ' + wordSix + ' the doorbell ' + wordSeven + ' . ' + wordEight + '!' + ' My friend ' + wordNine + ' answered the door dressed up as ' + wordTen + ' and said ' + '"' + wordEleven + '!" ' + ' There were ' + wordTwelve + ' different costumes, including ' + wordThirteen + ' ghouls and mummified ' + wordFourteen + '. The music was loud and ' + wordFifteen + ', ' + ' so I ' + wordSixteen + ' until my ' + wordSeventeen + ' hurt. ' + ' There were also delicious treats to ' + wordEighteen + ',' + ' like candy corn and chocolate-covered ' + wordNineteen + ',' + ' but my favorite part of the party was the pumpkin ' + wordTwenty + ' and bobbing for ' + wordTwentyone + '.' + " I can't wait until next Halloween it will be even more " + wordTwentytwo + '!!</p>';
     
     console.log(paragraph);
     document.getElementById('answer').innerHTML = paragraph;

@@ -5,75 +5,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mad Libs</title>
     <link rel="stylesheet" href="./style.css">
+
+    <script src="./app.js"></script>
     
 </head>
 <body>
 
-    <div id="headingwrap">
+
+    <img src='./img/madlibs.png' id="heading">
+
+
+    <!-- <div id="headingwrap">
     <img id="pic1" src="img/pump.png" alt="">
     <h1>Halloween Mad Libs</h1>
     <img id="pic2" src="img/pump.png" alt="">
-    </div>
+    </div> -->
 
     <br><br>
 
+        <div class="instructions">Please enter your answers in each box, and a <br> spooky Mad Libs will appear to your right!!</div>
+    
         <form class="grid-container">
+            
+            <div class="grid-item">Adjective:<input type="text" id='one'></div>
 
-            <div class="grid-item">Adjective:<input type="text " id='one' name=""></div>
+            <div class="grid-item">Animal:<input type="text" id='two'></div>
 
-            <div class="grid-item">Animal:<input type="text " id='two' name=""></div>
+            <div class="grid-item">Place:<input type="text" id='three'></div>
 
-            <div class="grid-item">Place:<input type="text" id='three' name=""></div>
+            <div class="grid-item">Verb:<input type="text" id='four'></div>
 
-            <div class="grid-item">Verb:<input type="text" id='four' name=""></div>
+            <div class="grid-item">Noun:<input type="text" id='five'></div>
 
-            <div class="grid-item">Noun:<input type="text" id='five' name=""></div>
+            <div class="grid-item">Verb-past tense:<input type="text" id='six'></div>
 
-            <div class="grid-item">Verb-past tense:<input type="text" id='six' name=""></div>
+            <div class="grid-item">Adverb:<input type="text" id='seven'></div>
 
-            <div class="grid-item">Adverb:<input type="text" id='seven' name=""></div>
+            <div class="grid-item">Exclamation:<input type="text" id='eight'></div>
 
-            <div class="grid-item">Exclamation:<input type="text" id='eight' name=""></div>
+            <div class="grid-item">Friend's name:<input type="text" id='nine'></div>
 
-            <div class="grid-item">Friend's name:<input type="text" id='nine' name=""></div>
+            <div class="grid-item">Celebrity:<input type="text" id='ten'></div>
 
-            <div class="grid-item">Celebrity:<input type="text" id='ten' name=""></div>
+            <div class="grid-item">Sillyword:<input type="text" id='eleven'></div>
 
-            <div class="grid-item">Sillyword:<input type="text" id='eleven' name=""></div>
+            <div class="grid-item">Number:<input type="text" id='twelve'></div>
+            </div>
+        </form>
 
-            <div class="grid-item">Number:<input type="text" id='twelve' name=""></div>
+        <form class="grid-container2 float-right">
 
-            <div class="grid-item">Adjective:<input type="text" id='thirteen' name=""></div>
+            <div class="grid-item">Number:<input type="text" id='twelve'></div>
 
-            <div class="grid-item">Noun-plural:<input type="text" id='fourteen' name=""></div>
+            <div class="grid-item">Adjective:<input type="text" id='thirteen'></div>
 
-            <div class="grid-item">Adjective:<input type="text" id='fifteen' name=""></div>
+            <div class="grid-item">Noun-plural:<input type="text" id='fourteen'></div>
 
-            <div class="grid-item">Verb-past tense:<input type="text" id='sixteen' name=""></div>
+            <div class="grid-item">Adjective:<input type="text" id='fifteen'></div>
 
-            <div class="grid-item">Body part-plural:<input type="text" id='seventeen' name=""></div>
+            <div class="grid-item">Verb-past tense:<input type="text" id='sixteen'></div>
 
-            <div class="grid-item">Verb:<input type="text" id='eighteen' name=""></div>
+            <div class="grid-item">Body part-plural:<input type="text" id='seventeen'></div>
 
-            <div class="grid-item">Noun-plural:<input type="text" id='ninteen' name=""></div>
+            <div class="grid-item">Verb:<input type="text" id='eighteen'></div>
 
-            <div class="grid-item">Verb ending in -ing:<input type="text" id='twenty' name=""></div>
+            <div class="grid-item">Noun-plural:<input type="text" id='nineteen'></div>
 
-            <div class="grid-item">Noun-plural:<input type="text" id='twentyOne' name=""></div>
+            <div class="grid-item">Verb ending in -ing:<input type="text" id='twenty'></div>
 
-            <div class="grid-item">Adjective:<input type="text" id='twentyTwo' name=""></div>
+            <div class="grid-item">Noun-plural:<input type="text" id='twentyOne'></div>
+
+            <div class="grid-item">Adjective:<input type="text" id='twentyTwo'></div>
 
             <!-- Submit Button -->
 
-            <button type='button' onClick='createParagraph()'>Submit</button>
+            <button type='button' class='margin' style="color:black; width:30vh; height:5vh; background-color: orangered; font-size: 20px ;" onclick='createParagraph()'>Submit</button>
 
         </form>
+
 
             <div id="answer"></div>
 
 
 
-<script src="./app.js"></script>
+
 </body>
 </html>
 
