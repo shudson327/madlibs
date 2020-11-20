@@ -9,12 +9,22 @@ p {
     font-size: 25px;
     text-align: left;
     border: 10px dashed orangered;
-    margin: 20px;
-    padding: 35px;
+    margin: 5px;
+    padding: 45px;
     float: right;
     width: 50%;
     text-overflow: ellipsis;
-    margin-top: -600px;
+    margin-top: -710px;
+    position: sticky;
+    height: 520px;
+    width: 500px;
+}
+
+@media only screen and (max-width: 768px){
+    .p {
+        position: relative;
+        z-index: 1;
+    }
 }
 
 #heading{
@@ -71,19 +81,10 @@ form {
     display: flex; 
     flex-direction: column;
     border: 10px solid orangered;
-    position: relative;
-    
-    
-
-
-    /* flex-wrap: wrap; */
-  
+    position: relative;  
    align-content: center;
-    /* grid-template-columns: auto auto auto; */
     background-color: grey;
     padding: 10px;
-    /* margin-left: 500px;
-    margin-right: 500px; */
     max-width: 200px;
    
     }
@@ -159,4 +160,8 @@ form {
     color: black;
 
 
+    }
+
+    .button {
+        position: fixed;
     }
